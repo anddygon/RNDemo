@@ -2,15 +2,16 @@
   "name": "demo",
   "version": "1.0.0",
   "description": "a demo for react native",
-  "repository": {
-    
-  },
+  "repository": {},
   "license": "ISC",
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start"
   },
   "dependencies": {
     "react": "^16.0.0-alpha.6",
-    "react-native": "0.44.0"
+    "react-native": "0.44.0",
+    "react-redux": "5.0.5",
+    "redux": "3.6.0",
+    "redux-thunk": "2.2.0"
   }
 }

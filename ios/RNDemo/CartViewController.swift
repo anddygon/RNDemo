@@ -18,7 +18,7 @@ class CartViewController: BaseViewController {
     }
 
     fileprivate func configUI() {
-        guard let view = RNModuleManager.shared.viewFor(name: "cart") else {
+        guard let view = RNModuleManager.shared.viewFor(name: "App") else {
             return print("could not load cart from js-slide")
         }
         self.view = view

@@ -38,11 +38,14 @@ class TabBarController: UITabBarController {
             let item = UITabBarItem(title: title, image: nil, selectedImage: nil)
             
             item.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.black,
-                                         NSStrokeWidthAttributeName: 10,
+                                         NSStrokeWidthAttributeName: 12,
                                          NSStrokeColorAttributeName: UIColor.purple,
-                                         NSFontAttributeName: UIFont.systemFont(ofSize: 10)],
+                                         NSFontAttributeName: UIFont.systemFont(ofSize: 12)],
                                         for: .normal)
-            item.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.orange],
+            item.setTitleTextAttributes([NSForegroundColorAttributeName: UIColor.orange,
+                                         NSStrokeWidthAttributeName: 12,
+                                         NSStrokeColorAttributeName: UIColor.purple,
+                                         NSFontAttributeName: UIFont.systemFont(ofSize: 12)],
                                         for: .selected)
             item.titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -16)
             navigationController.tabBarItem = item
