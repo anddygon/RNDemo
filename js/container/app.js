@@ -7,6 +7,7 @@ import thunk from 'redux-thunk'
 import rootReducer from '../reducers/index'
 const store = compose(applyMiddleware(thunk))(createStore)(rootReducer)
 
+
 import Counter from '../components/counter'
 
 export default class App extends Component {

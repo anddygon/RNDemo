@@ -18,9 +18,9 @@ const decrement = () => {
 const incrementIfOdd = () => {
   return (dispatch, getState) => {
     //获取state中的count属性
-    const {count} = getState()
+    const {counter} = getState()
     //偶数返回
-    if (count % 2 === 0) {
+    if (counter.count % 2 === 0) {
       return
     }
     //执行加1操作
