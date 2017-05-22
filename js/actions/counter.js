@@ -1,10 +1,10 @@
-// action type
+// action types
 const INCREMENT = 'INCREMENT'
 const DECREMENT = 'DECREMENT'
 
 export {INCREMENT,  DECREMENT}
 
-// actions
+// action functions
 const increment = () => {
   return {
     type: INCREMENT

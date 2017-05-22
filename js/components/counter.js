@@ -7,16 +7,24 @@ import * as CounterActions from '../actions/counter'
 
 class Counter extends Component {
 
+  static propTypes = {
+    increment: PropTypes.func.isRequired,
+    decrement: PropTypes.func.isRequired,
+    incrementIfOdd: PropTypes.func.isRequired,
+    incrementAsync: PropTypes.func.isRequired,
+    counter: PropTypes.object.isRequired,
+  }
+
   render() {
     const {increment, decrement, incrementIfOdd, incrementAsync, counter} = this.props
     return (
       <View style={styles.container}>
         <Text>Clicked: {counter.count} times</Text>
-        <View style={{flexDirection: 'row', marginTop: 20}}>
+        <View style={{flexDirection: 'row', marginTop: 20, flexWrap: 'wrap'}}>
           <Text style={styles.button} onPress={increment}> + </Text>
           <Text style={styles.button} onPress={decrement}> - </Text>
           <Text style={styles.button} onPress={incrementIfOdd}> Increment if odd </Text>
-          <Text style={styles.button} onPress={() => incrementAsync(1000)}> Increment async </Text>
+          <Text style={styles.button} onPress={() => incrementAsync(5000)}> Increment async </Text>
         </View>
       </View>
     )
@@ -27,16 +35,9 @@ class Counter extends Component {
 const mapStateToProps = (state) => {
   return {counter: state.counter}
 }
+
 const mapDispatchToProps = (dispatch) => {
   return bindActionCreators(CounterActions, dispatch)
-}
-
-Counter.propTypes = {
-  increment: PropTypes.func.isRequired,
-  decrement: PropTypes.func.isRequired,
-  incrementIfOdd: PropTypes.func.isRequired,
-  incrementAsync: PropTypes.func.isRequired,
-  counter: PropTypes.object.isRequired
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(Counter)
