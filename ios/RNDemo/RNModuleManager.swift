@@ -17,7 +17,7 @@ class RNModuleManager: NSObject, RCTBridgeDelegate {
     }()
     
     
-    func viewFor(name: String, initialProperties: [AnyHashable: Any]? = nil) -> UIView? {
+    func viewFor(name: String, initialProperties: [AnyHashable: Any]? = nil) -> RCTRootView? {
         let view = RCTRootView(bridge: bridge, moduleName: name, initialProperties: initialProperties)
         return view
     }

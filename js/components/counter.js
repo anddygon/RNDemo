@@ -1,18 +1,11 @@
 'use strict'
 import React, { Component, PropTypes } from 'react'
 import {View, Text, StyleSheet, TouchableOpacity} from 'react-native'
-import {connect} from 'react-redux'
-import {bindActionCreators} from 'redux'
-import * as CounterActions from '../actions/counter'
 
-class Counter extends Component {
+export default class Counter extends Component {
 
-  static propTypes = {
-    increment: PropTypes.func.isRequired,
-    decrement: PropTypes.func.isRequired,
-    incrementIfOdd: PropTypes.func.isRequired,
-    incrementAsync: PropTypes.func.isRequired,
-    counter: PropTypes.object.isRequired,
+  constructor() {
+    super()
   }
 
   render() {
@@ -32,16 +25,6 @@ class Counter extends Component {
 
 }
 
-const mapStateToProps = (state) => {
-  return {counter: state.counter}
-}
-
-const mapDispatchToProps = (dispatch) => {
-  return bindActionCreators(CounterActions, dispatch)
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)(Counter)
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -54,3 +37,11 @@ const styles = StyleSheet.create({
     marginLeft: 8
   }
 })
+
+Counter.propTypes = {
+  increment: PropTypes.func.isRequired,
+  decrement: PropTypes.func.isRequired,
+  incrementIfOdd: PropTypes.func.isRequired,
+  incrementAsync: PropTypes.func.isRequired,
+  counter: PropTypes.object.isRequired
+}

@@ -1,3 +1,4 @@
+import {ASYNC} from 'redux-amrc'
 // action types
 const INCREMENT = 'INCREMENT'
 const DECREMENT = 'DECREMENT'
@@ -10,11 +11,13 @@ const increment = () => {
     type: INCREMENT
   }
 }
+
 const decrement = () => {
   return {
     type: DECREMENT
   }
 }
+
 const incrementIfOdd = () => {
   return (dispatch, getState) => {
     //获取state中的count属性
@@ -27,6 +30,7 @@ const incrementIfOdd = () => {
     dispatch(increment())
   }
 }
+
 const incrementAsync = (delay = 3000) => {
   return dispatch => {
     setTimeout(() => {
