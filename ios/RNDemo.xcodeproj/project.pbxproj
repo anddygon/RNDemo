@@ -12,6 +12,16 @@
 		E119F3C71ECEC99700B3AA72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E119F3C61ECEC99700B3AA72 /* Assets.xcassets */; };
 		E119F3CA1ECEC99700B3AA72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E119F3C81ECEC99700B3AA72 /* LaunchScreen.storyboard */; };
 		E119F3E41ECED84400B3AA72 /* RNModuleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E119F3E31ECED84400B3AA72 /* RNModuleManager.swift */; };
+		E1313D491EE01142001DA427 /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1313D3F1EE01142001DA427 /* Entypo.ttf */; };
+		E1313D4A1EE01142001DA427 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1313D401EE01142001DA427 /* EvilIcons.ttf */; };
+		E1313D4B1EE01142001DA427 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1313D411EE01142001DA427 /* FontAwesome.ttf */; };
+		E1313D4C1EE01142001DA427 /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1313D421EE01142001DA427 /* Foundation.ttf */; };
+		E1313D4D1EE01142001DA427 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1313D431EE01142001DA427 /* Ionicons.ttf */; };
+		E1313D4E1EE01142001DA427 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1313D441EE01142001DA427 /* MaterialCommunityIcons.ttf */; };
+		E1313D4F1EE01142001DA427 /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1313D451EE01142001DA427 /* MaterialIcons.ttf */; };
+		E1313D501EE01142001DA427 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1313D461EE01142001DA427 /* Octicons.ttf */; };
+		E1313D511EE01142001DA427 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1313D471EE01142001DA427 /* SimpleLineIcons.ttf */; };
+		E1313D521EE01142001DA427 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1313D481EE01142001DA427 /* Zocial.ttf */; };
 		E150D0861ED6DC8E002DA471 /* JSEventEmitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E150D0851ED6DC8E002DA471 /* JSEventEmitter.swift */; };
 		E150D0951ED6EADE002DA471 /* EventEmitterBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = E150D0941ED6EADE002DA471 /* EventEmitterBridge.m */; };
 /* End PBXBuildFile section */
@@ -25,6 +35,17 @@
 		E119F3C91ECEC99700B3AA72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E119F3CB1ECEC99700B3AA72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E119F3E31ECED84400B3AA72 /* RNModuleManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNModuleManager.swift; sourceTree = "<group>"; };
+		E1313D3D1EE00FDC001DA427 /* RNDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RNDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		E1313D3F1EE01142001DA427 /* Entypo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Entypo.ttf; sourceTree = "<group>"; };
+		E1313D401EE01142001DA427 /* EvilIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = EvilIcons.ttf; sourceTree = "<group>"; };
+		E1313D411EE01142001DA427 /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		E1313D421EE01142001DA427 /* Foundation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Foundation.ttf; sourceTree = "<group>"; };
+		E1313D431EE01142001DA427 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		E1313D441EE01142001DA427 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialCommunityIcons.ttf; sourceTree = "<group>"; };
+		E1313D451EE01142001DA427 /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		E1313D461EE01142001DA427 /* Octicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octicons.ttf; sourceTree = "<group>"; };
+		E1313D471EE01142001DA427 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SimpleLineIcons.ttf; sourceTree = "<group>"; };
+		E1313D481EE01142001DA427 /* Zocial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zocial.ttf; sourceTree = "<group>"; };
 		E150D0851ED6DC8E002DA471 /* JSEventEmitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSEventEmitter.swift; sourceTree = "<group>"; };
 		E150D0941ED6EADE002DA471 /* EventEmitterBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventEmitterBridge.m; sourceTree = "<group>"; };
 		FEE96239B66C838ED2BF32E2 /* Pods-RNDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNDemo/Pods-RNDemo.release.xcconfig"; sourceTree = "<group>"; };
@@ -81,30 +102,41 @@
 			isa = PBXGroup;
 			children = (
 				E119F3E21ECED83500B3AA72 /* ReactNative */,
-				E119F3D11ECECFB400B3AA72 /* ViewControllers */,
 				E119F3BF1ECEC99700B3AA72 /* AppDelegate.swift */,
+				E1313D3D1EE00FDC001DA427 /* RNDemo-Bridging-Header.h */,
 				E119F3C61ECEC99700B3AA72 /* Assets.xcassets */,
 				E119F3C81ECEC99700B3AA72 /* LaunchScreen.storyboard */,
 				E119F3CB1ECEC99700B3AA72 /* Info.plist */,
+				E1313D3E1EE01142001DA427 /* Fonts */,
 			);
 			path = RNDemo;
-			sourceTree = "<group>";
-		};
-		E119F3D11ECECFB400B3AA72 /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				E150D0851ED6DC8E002DA471 /* JSEventEmitter.swift */,
-				E150D0941ED6EADE002DA471 /* EventEmitterBridge.m */,
-			);
-			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 		E119F3E21ECED83500B3AA72 /* ReactNative */ = {
 			isa = PBXGroup;
 			children = (
 				E119F3E31ECED84400B3AA72 /* RNModuleManager.swift */,
+				E150D0851ED6DC8E002DA471 /* JSEventEmitter.swift */,
+				E150D0941ED6EADE002DA471 /* EventEmitterBridge.m */,
 			);
 			name = ReactNative;
+			sourceTree = "<group>";
+		};
+		E1313D3E1EE01142001DA427 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E1313D3F1EE01142001DA427 /* Entypo.ttf */,
+				E1313D401EE01142001DA427 /* EvilIcons.ttf */,
+				E1313D411EE01142001DA427 /* FontAwesome.ttf */,
+				E1313D421EE01142001DA427 /* Foundation.ttf */,
+				E1313D431EE01142001DA427 /* Ionicons.ttf */,
+				E1313D441EE01142001DA427 /* MaterialCommunityIcons.ttf */,
+				E1313D451EE01142001DA427 /* MaterialIcons.ttf */,
+				E1313D461EE01142001DA427 /* Octicons.ttf */,
+				E1313D471EE01142001DA427 /* SimpleLineIcons.ttf */,
+				E1313D481EE01142001DA427 /* Zocial.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -170,7 +202,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1313D501EE01142001DA427 /* Octicons.ttf in Resources */,
 				E119F3CA1ECEC99700B3AA72 /* LaunchScreen.storyboard in Resources */,
+				E1313D4B1EE01142001DA427 /* FontAwesome.ttf in Resources */,
+				E1313D4A1EE01142001DA427 /* EvilIcons.ttf in Resources */,
+				E1313D521EE01142001DA427 /* Zocial.ttf in Resources */,
+				E1313D511EE01142001DA427 /* SimpleLineIcons.ttf in Resources */,
+				E1313D4D1EE01142001DA427 /* Ionicons.ttf in Resources */,
+				E1313D4C1EE01142001DA427 /* Foundation.ttf in Resources */,
+				E1313D4F1EE01142001DA427 /* MaterialIcons.ttf in Resources */,
+				E1313D491EE01142001DA427 /* Entypo.ttf in Resources */,
+				E1313D4E1EE01142001DA427 /* MaterialCommunityIcons.ttf in Resources */,
 				E119F3C71ECEC99700B3AA72 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,6 +396,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chicv.RNDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNDemo/RNDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -368,6 +411,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.chicv.RNDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RNDemo/RNDemo-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

@@ -27,8 +27,7 @@ class RNModuleManager: NSObject, RCTBridgeDelegate {
 extension RNModuleManager {
     
     func sourceURL(for bridge: RCTBridge!) -> URL! {
-        let url = URL(string: "http://localhost:8081/index.ios.bundle?platform=ios&dev=true")!
-        return url
+        return RCTBundleURLProvider.sharedSettings().jsBundleURL(forBundleRoot: "index", fallbackResource: nil)
     }
     
 }
